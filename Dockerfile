@@ -8,5 +8,7 @@ WORKDIR /usr/src/app
 COPY . .
 # instalar blibliotecas
 RUN npm install
+# EEE
+EXPOSE 3000
 # ejecutar comando para iniciar el CRON
-CMD npm start
+CMD ['npm', 'start']
