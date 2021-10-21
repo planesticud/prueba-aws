@@ -1,0 +1,23 @@
+{
+  "name": "prueba-aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planesticud/prueba-aws.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/planesticud/prueba-aws/issues"
+  },
+  "homepage": "https://github.com/planesticud/prueba-aws#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
