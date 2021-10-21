@@ -1,7 +1,6 @@
 # Usar  imagen de nodejs
 FROM node:lts-alpine3.12
 # Crear carpeta de trabajo
-ENV PORT=3000
 RUN mkdir -p /usr/src/app
 # seleccionar carpeta de trabajo
 WORKDIR /usr/src/app
